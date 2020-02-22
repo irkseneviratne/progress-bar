@@ -1,0 +1,90 @@
+/* container */
+/* line 2, SCSS/style.scss */
+.container {
+  max-width: 300px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+/* / container */
+/* page title */
+/* line 11, SCSS/style.scss */
+h1 {
+  font-family: "Arial";
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+/* / page title */
+/* progressbar */
+/* line 20, SCSS/style.scss */
+.bar-wrapper {
+  border: 1px solid #a1a1a1;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  padding: 2px;
+  font-family: "Arial";
+}
+/* line 28, SCSS/style.scss */
+.bar-wrapper .progress-bar {
+  max-width: 100%;
+  background-color: #8fb7c5;
+  line-height: 2.5;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+  font-weight: bold;
+}
+/* line 37, SCSS/style.scss */
+.bar-wrapper .warning-progress-bar {
+  max-width: 100%;
+  background-color: #c01919;
+  line-height: 2.5;
+  border-radius: 3px;
+  transition: all 0.5s ease;
+  font-weight: bold;
+  color: #fff;
+}
+/* line 47, SCSS/style.scss */
+.bar-wrapper p {
+  text-align: center;
+  margin: 0;
+  position: relative;
+}
+
+/* / progressbar */
+/* controller */
+/* line 56, SCSS/style.scss */
+.controllers {
+  list-style: none;
+  float: left;
+  padding-left: 0px;
+}
+/* line 61, SCSS/style.scss */
+.controllers li {
+  display: inline-block;
+}
+/* line 64, SCSS/style.scss */
+.controllers li select {
+  border-radius: 3px;
+  height: 25px;
+  margin-right: 2px;
+}
+/* line 70, SCSS/style.scss */
+.controllers li button {
+  margin-right: 5px;
+  border-radius: 3px;
+  border: none;
+  width: 46px;
+  height: 25px;
+  padding: 2px;
+  cursor: pointer;
+  outline: none;
+  background-color: #c3c3c3;
+}
+/* line 81, SCSS/style.scss */
+.controllers li button:last-child {
+  margin-right: 0;
+}
+
+/* / controller */
